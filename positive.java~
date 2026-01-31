@@ -1,0 +1,23 @@
+import java.util.scanner;
+class positive negative{
+  public static void main(String []args){
+    Scanner sc =new Scanner(System.in);
+    int marks=sc.nextInt();
+    if (marks>=90)
+      system.out.println("Grade A");
+    else if (marks>=75)
+    system.ouyt.println("Grade b");
+    else if (marks>=60)
+      system.out.println("Grade c");
+    else if (marks>=40)
+      system.out.println("Grade c");
+    else
+      system.out.println("Grade e");
+  }
+}
+    
+                                                  
+ 
+
+                           
+      
