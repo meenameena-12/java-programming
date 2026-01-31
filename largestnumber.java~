@@ -1,0 +1,16 @@
+import java.util.scanner;
+class largestnumber{
+  public Static void main (String{}args){
+    DSacnner sc=new Scanner(SYsytem.in);
+    int a=sc.nextInt(;
+    int b=sc.nextInt();
+    int c=nextInt();
+    if(a>b&&a>c)
+         System.out.println(a="is largest");
+     else if (b>c)
+          System.out.println(b+"is largest);
+       else
+           System.out.println(c+"is largest");
+  }
+}
+                     
