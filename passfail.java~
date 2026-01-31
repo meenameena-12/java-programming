@@ -1,0 +1,11 @@
+import java.util.scanner;
+class passfail{
+  public Static void main(String[]args){
+    Scanner sc=new Sacnner(System.in);
+    int marks=sc.nextInt();
+    if(marks>=40)
+      System.out.println("Pass");
+    else
+      System.out.println("Fail")
+  }
+}
