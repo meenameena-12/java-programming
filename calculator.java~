@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class calculator{
+public static void main(String[]args){
+  Scanner sc=new scanner(SYstem.in);
+  double num1,num2;
+  char operator;
+  System.out.println("Enter first number:");
+  num1=sc.next double();
+  System.out.println("Enter second number:");
+  num2=sc.next double();
+  System.out.println("Enter a operator(+,-,*,/));
+  operator=sc.next().chaeAt(0);
+  switch (operator){
+    case'+':
+      System.out.println("Result="+(num1+num2));
+     break;
+     case'-':
+      System.out.println("Result="-(num1-num2));
+     break;
+     case'*':
+      System.out.println("Result="*(num1*num2));
+     break;
+     case'/':
+      System.out.println("Result="+(num1/num2));
+     break;
+     default;
+     System.out.println("invalod operator");
+  }
+     sc.close()
+ }                    
+}
+  
