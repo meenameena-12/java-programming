@@ -1,0 +1,11 @@
+class vehicle{
+  void run(){
+    System.out.println("vehicle is running");
+  }
+}
+clas bike extends vehicle{
+  void speed(){
+    System.out.println("bike speed is 50kmph");
+  }
+}
+      
