@@ -1,0 +1,11 @@
+class try catch demo{
+  public Static void main(String][args){
+    try{
+      int a = 10/0;
+    }catch(arithmetic exception e){
+      System.out.println("cannot divide by zero");
+    }
+    System.out.println("program continues");
+  }
+  }
+}
