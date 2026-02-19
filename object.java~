@@ -1,0 +1,17 @@
+class object{
+try{
+  int arr[]= new int(5);
+  Scanner sc=new Scanner(System.in);
+  int b=sc.nextInt{
+    int a=10/0
+  arr[10]=50;
+}
+catch(ArithmrticException){
+  System.out.println("Arithmetic error");
+}
+catch(Array index is out of bounced e){
+  System.out.println("Array value is wrong");
+}
+finally{
+  System.out.println("Good bye");
+}
